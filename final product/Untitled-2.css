@@ -1,0 +1,74 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(a.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    font-size: medium;
+    box-sizing: border-box;
+}
+.hey{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}
+.hey ul{
+    display: inline-flex;
+    list-style: none;
+}
+.hey ul li{
+    margin:15px;
+    width: 120px;
+    padding: 15px;
+}
+.hey ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.active, .hey ul li:hover{
+    background: #ffa31a;
+    border-radius: 10px;
+}
+.hey .fa{
+    margin-left: 10px;
+}
+.hi{
+    display: none;
+}
+.hey ul li:hover .hi{
+    display: block;
+    position: absolute;
+    background-color: black;
+    margin-top:  10px;
+    margin-left: -10px;
+}
+.hey ul li:hover .hi ul{
+    display: block;
+    margin: auto;
+}
+
+.hey ul li:hover .hi ul li{
+    width: 120px;
+    padding: 10px;
+    border-bottom: 1px dashed;
+    background-color: transparent;
+    border-radius: 0%;
+    text-align: left;
+}
+#viewID{
+    border-bottom:none !important;
+}
+.hey ul li:hover .hi ul li a:hover{
+    color: #ffa31a;
+    cursor: pointer;
+}
+.title{
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 5px 5px 5px black,0px 0px 10px hotpink,0px 0px 3px black; 
+    color: #ffa31a;
+}

@@ -1,0 +1,14 @@
+body{
+    background-image:url("aboutus.jpg");
+    background-size: cover;
+}
+.about{
+    border: 2px double;
+    border-radius: 20px;
+    background-color:transparent;
+    color: black;
+}
+h1{
+    position: relative;
+    left: 580px;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+	function pv()
+	{
+		var firstname=document.getElementById('txt').value;
+		localStorage.setItem("textvalue", firstname);
+		return false;
+	}
+</script>
+</head>
+<body>
+	<center>
+		<h1>Calculating total amount</h1>
+		<form action="bruh.html">
+			<input type="text" id="txt">
+			<input type="submit" value="Redirect" onclick="pv();"/>
+		</form>
+	</center>
+</body>
+</html>
